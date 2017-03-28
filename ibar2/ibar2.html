@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="ibarcss/reset.css">
 	<link rel="stylesheet" type="text/css" href="ibarcss/css/font-awesome.css">
 </head>
-<body>
+<body onclick="myFunc()">
 <div id="main2">
 <div onclick="initScrol('main2'); return false;" class="scrollUp"><a  href="#"></a></div>
 	<div class="contentUU">
@@ -33,12 +33,12 @@
 					<li><a href="">0.56328 SATIŞ</a></li>
 				</ul>
 			<div class="but">			
-				<button class="button button5"><p>InternetBank</p></button>
+				<button class="button button5"><p>InternetBank</p><i class="fa fa-lock" aria-hidden="true"></i></button>
 			</div>
 		</div>
-		<!-- <div class="resMenu">
-			<img src="ibarimg/img/menu.svg" alt="">
-		</div> -->
+		<div class="resMenu">
+			<img src="img/menu.svg" alt="">
+		</div>
 			</div>
 		</div>
 		<div class="middle1">
@@ -122,7 +122,75 @@
   				</tbody>
   			</table>
      		</div>
-     		<div id="calc"></div>
+     		<div class="page_subs calc_section" id="calc">
+                            <h4>Kalkulyator</h4>
+                            <p class="ps_sub">Ödəniş növü: aylıq, bərabər hissələrlə</p>
+                            <div class="calc_wrap">
+                                <div class="calc_self">
+                                    <div class="cl_item_s sf1">
+                                        <p>Əmanətin məbləği</p>
+                                        <b>
+                                            <span id="priceValue" class="calc_amount">0</span>
+                                            <div class="select_cur">
+                                                <ul>
+                                                    <li>
+                                                        <a>azn</a>
+                                                    </li>
+                                                    <li>
+                                                        <a>usd</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </b>
+                                        <div class="calc_input">
+                                            <input type="range" id="price" min="0" max="1000000" step="100" value="0">
+                                        </div>
+                                    </div>
+                                    <div class="cl_item_s sf2">
+                                        <p>Müddət</p>
+                                        <b>
+                                            <span id="timeValue">12</span>
+                                            <u>ay</u>
+                                        </b>
+                                        <div class="calc_input">
+                                            <input type="range" id="time" min="12" max="36" step="12" value="12">
+                                        </div>
+                                    </div>
+                                    <div class="cl_item_s sf3">
+                                        <p>Faizlərin ödənilməsi</p>
+                                        <select name="" id="mySelect">
+                                            <option value="month">Hər ay</option>
+                                            <option value="year">Hər il</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="calc_answ deposit_calc">
+                                    <div class="main_answ">
+                                        <div class="ma_item">
+                                            <p>Faizlərin ümumi məbləği</p>
+                                            <b>
+                                                <span id="priceResult">0.00</span>
+                                                <u>azn</u>
+                                            </b>
+                                        </div>
+                                        <div class="ma_item">
+                                            <p id="myP">Hər ay ödənilən faiz</p>
+                                            <b>
+                                                <span id="month">0.00</span>
+                                                <u>azn</u>
+                                            </b>
+                                        </div>
+                                    </div>
+                                    <div class="sub_answ">
+                                        <p>İllik faiz dərəcəsi</p>
+                                        <b>
+                                            <span id="year">11</span>
+                                            <u>%</u>
+                                        </b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 		</div>
      </div>
      <div class="midDown">

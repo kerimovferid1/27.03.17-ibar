@@ -336,7 +336,7 @@ box-shadow: 0 60px 60px rgba(0, 0, 0, .2);
 }
 #calc{
 	width: 100%;
-	height:330px ;
+	/*height:330px ;*/
 	background:url(../img/calc_bg.png) no-repeat;
 	background-size: cover;
 	border-bottom-right-radius: 10px;
@@ -646,4 +646,446 @@ width: 60px;
 .middle2>ul>li:hover{
  background:rgb(71, 82, 117);
  transition: 0.5s ease;
+}
+
+
+/*resposive*/
+@media screen and (max-width:1300px) {
+  .button5{
+    padding: 0;
+        width: 40px;
+    height: 40px;
+  }
+  .button>p{
+    display: none;
+  }
+}
+@media screen and (min-width:1300px) {
+    .button>i{
+        display: none;
+        color:#A1B3D7;
+    }
+    .valyuta>ul>li:nth-child(1) {
+    text-decoration: underline;
+    margin-right: 20px;
+    font-size: 13px;
+}
+    
+
+}
+@media screen and (max-width:1300px) {
+    
+    .valyuta>ul>li:nth-child(1) {
+    text-decoration: underline;
+    margin-right: 20px;
+    font-size: 13px;
+}
+    .corporativ2>a {
+    color: #fff;
+    font-size: 1.3em;
+    padding: 8px 19px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    text-decoration: none;
+}
+    .logo2{
+        background-size: 170px;
+    }
+    .depozitMiddle {
+    width: 100%;
+    /* height: 300px; */
+    /* border: 1px solid black; */
+     margin-left: auto; 
+    border-radius: 10px;
+    background: white;
+}
+.scrollDepozit {
+    display: none;
+}
+}
+
+@media screen and (min-width:1100px) {
+    .resMenu{
+        display: none;
+    }
+}
+@media screen and (max-width:1100px) {
+    .middle2>h1{
+        font-size: 2.5em;
+    }
+    .sliderR22{
+        width: 170px;
+    }
+    .sliderR2{
+        margin-left: 0;
+    }
+    .slider2{
+        margin-left: 0%;
+    }
+    .middle2>ul{
+        display: none;
+    }
+    .corporativ2{
+        display: none;
+    }
+    .valyuta>ul{
+        display: none;
+    }
+    .sliderL{
+        width: 500px;
+        height: 170px;
+    }
+    .sliderR{
+        width: 327px;
+        margin-right: 34px;
+/*      height: 170px;
+*/  }
+.middle{
+    width: 100%;
+}
+.slider{
+    margin-left: 30px;
+}
+
+.middle_menu{
+    display: none;
+}
+.input {
+    position: relative;
+    font-size: 1.3em;
+    display: block;
+    padding: 20px 35px 20px 0;
+    border-bottom: 3px solid rgba(255, 255, 255, .25);
+    color: #fff;
+    background-size: 26px;
+}
+
+.logo2{
+    position: absolute;
+    left: 33%;
+}
+.middle {
+    margin: 0 auto;
+    left: 0%;
+}
+.but{
+    position: absolute;
+    left: 0
+}
+.searc {
+   
+    width: 45px;
+    height: 85px;
+    background-size: 23px;
+    position: absolute;
+    right: -4px;
+    top: 30px;
+}
+.input {
+    width: 85%;
+    margin-left: 30px;
+}
+.footerL>ul{
+    display: none;
+}
+.footerR{
+    display: none;
+}
+.footerLL>p{
+    margin:0;
+}
+.resMenu{
+    position: relative;
+    left: -50px;
+}
+.footerLLL {
+    display: none;
+}
+}
+.page_content table td{
+    border: 1px solid rgba(0, 0, 0, .05);
+    padding: 20px;
+}
+.calc_section{
+    position: relative;
+    background: url(../img/calc_bg.png) center center no-repeat #2b487f;
+    background-size: cover;
+}
+.calc_section h4{
+    color: #fff;
+}
+.ps_sub{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    opacity: .5;
+    color: #fff;
+}
+.cl_item_s{
+    margin: 0 50px 0 0;
+    white-space: nowrap;
+    vertical-align: top;
+    display: inline-block;
+}
+.sf1{
+    width: 225px;
+}
+.sf2{
+    width: 160px;
+}
+.sf3{
+    width: 230px;
+    margin: 0;
+}
+.cl_item_s p{
+    color: #fff;
+}
+.cl_item_s b{
+    color: rgba(255, 255, 255, .5);
+    font-size: 3.5em;
+    letter-spacing: -2px;
+    margin: 5px 0 0;
+    height: 65px;
+    line-height: 1em;
+    display: block;
+    cursor: default;
+font-family: myFirstFont;}
+.select_cur{
+    display: inline-block;
+}
+.select_cur li{
+    line-height: .5em;
+    height: 25px;
+}
+.select_cur a{
+    letter-spacing: 0;
+    font-size: .4em;
+    line-height: .5em;
+    display: block;
+    opacity: .25;
+    transition: all .3s ease-out;
+    color: #fff;
+}
+.select_cur a:hover{
+    opacity: .5;
+}
+.calc_input{
+    transition: all .3s ease-out;
+    opacity: 1;
+    margin-top: -12px;
+}
+.calc_input{
+    width: 100%;
+}
+.cl_item_s span{
+    line-height: 27pt;
+}
+.cl_item_s b u{
+    text-decoration: none;
+    font-size: .5em;
+    letter-spacing: 0;
+}
+input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 3px;
+    background: #90b5ff;
+    border: none;
+    border-radius: 5px;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    margin-top: -5px;
+    cursor: pointer;
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #90b5ff;
+}
+select{
+    border: 0;
+}
+.cl_item_s select{
+    color: rgba(255, 255, 255, .5);
+    font-size: 2.2em;
+    height: 72px;
+    border-bottom: 3px solid #90b5ff;
+    width: 100%;
+    padding: 0 20px 0 0;
+    background: url(../img/pick_select.png) 100% no-repeat;
+    background-size: 10px;
+    font-family: myFirstFont;
+    outline: 0;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+}
+.cl_item_s select option{
+    color: #000;
+}
+.calc_answ{
+    margin: 30px 0 0;
+}
+.main_answ{
+    width: 562px;
+    background: rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+}
+.ma_item{
+    margin: 0 50px 0 0;
+    white-space: nowrap;
+    vertical-align: top;
+    display: inline-block;
+}
+.ma_item:first-child{
+    width: 230px;
+}
+.ma_item p{
+    color: #fff;
+}
+.ma_item b{
+    font-size: 2.9em;
+    letter-spacing: -2px;
+    margin: 5px 0 0;
+    height: 65px;
+    color: rgba(255, 255, 255, .5);
+    line-height: 1em;
+    display: block;
+    cursor: default;
+    font-family: 't';
+}
+.ma_item b u{
+    text-decoration: none;
+    font-size: .5em;
+    letter-spacing: 0;
+}
+.sub_answ{
+    padding: 20px 0 20px 20px;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.sub_answ p{
+    color: #fff;
+    line-height: 22pt;
+    font-size: 1.1em;
+}
+.sub_answ b{
+    color: #fff;
+    opacity: .5;
+    font-size: 2.5em;
+    letter-spacing: -1px;
+    margin: 5px 0 0;
+    line-height: 1em;
+    display: block;
+    cursor: default;
+    font-family: 't';
+}
+#depozit_footer{
+    position: relative;
+    width: 100vw;
+    padding: 90px 50px;
+    z-index: 10;
+}
+.up_wrapper{
+    position: fixed;
+    bottom: 110px;
+    right: 20px;
+    z-index: 99;
+    display: block;
+}
+.up_bttn{
+    width: 60px;
+    height: 60px;
+    background: url(../img/up.svg) center center no-repeat;
+    background-size: 100%;
+    display: none;
+    opacity: .2;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+@media (max-width:1280px){
+    .up_bttn{
+        display: none;
+    }
+}
+@media (max-width:1075px){
+    .depozit_side_menu{
+        display: none;
+    }
+    .page_content{
+        width: 850px;
+        float: none;
+        margin: 0 auto;
+    }
+}
+@media (max-width:1060px){
+    .mid_wrap h1{
+        font-size: 5em;
+    }
+}
+@media (max-width:1000px){
+    .mid_wrap h1{
+        font-size: 2.5em;
+        padding: 0 20px;
+    }
+    .mid_wrap ul{
+        display: none;
+    }
+    .page_content{
+        width: 100%;
+    }
+    .page_subs{
+        padding: 20px;
+    }
+    .depozit_content{
+        padding: 0 15px;
+    }
+    .page_content table{
+        width: 600px;
+        margin: 0;
+    }
+    .page_content p{
+        line-height: 1.6em;
+        font-size: 1em;
+    }
+    .sf1{
+        width: 100%;
+    }
+    .cl_item_s{
+        display: block;
+        margin: 0 0 20px;
+    }
+    .main_answ{
+        width: 100%;
+    }
+    .ma_item{
+        display: block;
+        margin: 0 0 20px;
+    }
+    .ps_sub{
+        position: relative;
+        top: 0;
+        color: #fff;
+        opacity: .5;
+        margin: -15px 50px 20px;
+    }
+    .cl_item_s b{
+        font-size: 2.8em;
+        letter-spacing: -1px;
+        height: auto;
+    }
 }
